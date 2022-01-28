@@ -61,7 +61,7 @@ nav ul a{
 }
 
 .header-loginbtn button{
-    padding: .9em 1em;
+    padding: .9em 1.2em;
     font-size: .8em;
     font-weight: 600;
     color: #ecebeb;
@@ -76,14 +76,13 @@ nav ul a{
 }
 
 .hero-text {
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
     top: 30vh;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     justify-content: space-between;
     text-align: center;
 }
@@ -93,4 +92,33 @@ nav ul a{
     font-weight: 800;
     color: #ecebeb;
     padding: 0 30vw;
+}
+
+.hero-text p {
+    font-weight: 500;
+    padding: 0 32vw;
+    color: #ecebeb;
+}
+
+.hero-text-btns .blue-btn {
+    padding: 1em 2em;
+    font-size: .8em;
+    font-weight: 600;
+    color: #ecebeb;
+    background-color: #23A6F0;
+    border: 1px solid #23A6F0;
+    border-radius: 2em;
+    cursor: pointer;  
+}
+
+.hero-text-btns .trans-btn {
+    padding: 1em 2em;
+    font-size: .8em;
+    font-weight: 600;
+    color: #ecebeb;
+    background-color: transparent;
+    border: 1px solid #ecebeb;
+    border-radius: 2em;
+    cursor: pointer;
+    margin-left: 2vw;
 }
