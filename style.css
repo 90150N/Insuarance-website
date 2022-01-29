@@ -8,8 +8,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    height: 200vh;
+    background-color: #E0E0E0;
+}
+
 .hero {
-    height: 100vh;
+    height: 115vh;
     background-image: url(./img/hero-cover3.png);
     background-size: cover;
 }
@@ -78,25 +83,22 @@ nav ul a{
 .hero-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 30vh;
-    width: 100vw;
-    height: 50vh;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
+    margin-top: 30vh;
+    height: 50vh;
+
 }
 
 .hero-text h2 {
     font-size: 3em;
     font-weight: 800;
     color: #ecebeb;
-    padding: 0 30vw;
+
 }
 
 .hero-text p {
     font-weight: 500;
-    padding: 0 32vw;
     color: #ecebeb;
 }
 
@@ -121,4 +123,46 @@ nav ul a{
     border-radius: 2em;
     cursor: pointer;
     margin-left: 2vw;
+}
+
+.hero-card-sect {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.hero-card {
+    background-color: #ecebeb;
+    margin-left: 3vw;
+    width: 20vw;
+    box-shadow: 10px 10px 30px 3px #46464667;
+    padding: .8em 2em;
+}
+
+.hero-card i {
+    color: #23A6F0;
+}
+
+.hero-card h2 {
+    color: #20263A;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-top: .8em;
+}
+
+.hero-card p {
+    color: #676767;
+    font-size: .8em;
+    font-weight: 500;
+    padding-top: .8em;
+}
+
+.hero-card:last-child {
+    background-color: #23A6F0;
+}
+
+.hero-card:last-child i,
+.hero-card:last-child h2,
+.hero-card:last-child p {
+    color: #ecebeb;
 }
