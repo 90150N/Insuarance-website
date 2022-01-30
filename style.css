@@ -17,7 +17,7 @@
 }
 
 body {
-    height: 600vh;
+    height: 700vh;
     background-color: #E0E0E0;
 }
 
@@ -338,7 +338,7 @@ nav ul a{
 .pricing-cards {
     display: flex;
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 15vh;
     justify-content: center;
 }
 
@@ -495,4 +495,78 @@ nav ul a{
     cursor: pointer;
     margin-top: 3em;
     margin-bottom: 6vh;
+}
+
+.location {
+    background-color: var(--bs-dark-blue);
+    color: var(--bs-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-intro {
+    display: flex;
+    padding: 15vh 10vw;
+}
+
+.location-intro h2 {
+    font-weight: 700;
+    font-size: 2em;
+    padding-right: 15vw;
+}
+
+.location-intro p {
+    font-size: .7em;
+    font-weight: 500;
+    padding-right: 20vw;
+    padding-top: 5vh;
+}
+
+.location-intro img {
+    width: 30vw;
+}
+
+.appointment-form {
+    display: flex;
+    width: 45vw;
+    background-color: var(--bs-white);
+}
+
+.appointment-form h2 {
+    color: var(--bs-title);
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.appointment-form img {
+    height: 80vh;
+}
+
+.form form input,
+.form form label {
+    display: block;
+    margin-left: 2vw;
+}
+
+.form form {
+    width: 29vw;
+}
+
+.form form label {
+    font-size: .8em;
+    font-weight: 600;
+    color: var(--bs-title);
+    padding-top: 2vh;
+}
+
+.form form input {
+    border: 1px solid #C6C6C6;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #c4c1c1;
+    width: 22vw;
+    margin-top: 2vh;
 }
