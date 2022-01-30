@@ -95,6 +95,8 @@ nav ul a{
     align-items: center;
     margin-top: 30vh;
     height: 50vh;
+    padding: 0 30vw;
+    text-align: center;
 
 }
 
@@ -107,6 +109,7 @@ nav ul a{
 
 .hero-text p {
     font-weight: 500;
+    font-size: 1em;
     color: var(--bs-white);
 }
 
@@ -202,4 +205,53 @@ nav ul a{
     font-weight: 600;
     padding-top: 1em;
 
+}
+
+.industry {
+    padding-top: 20vh;
+}
+
+.industry-intro h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--bs-title);
+}
+
+.industry-intro p {
+    color: var(--bs-paragraph);
+    text-align: center;
+    font-size: .9em;
+    font-weight: 500;
+    padding: 4vh 30vw;
+}
+
+.industry-reviews {
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+}
+
+.review-card {
+    width: 20vw;
+    background-color: var(--bs-white);
+    border: 2px solid #D0D0D0;
+    margin-left: 2vw;
+    border-radius: 10px;
+    padding: 2vw;
+    text-align: center;
+}
+
+.review-card img {
+    max-width: 10vw;
+}
+
+.review-card p {
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--bs-paragraph);
+    padding: 2em 0;
+}
+
+.review-stars {
+    color: #DAB802;
 }
