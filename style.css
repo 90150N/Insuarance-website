@@ -16,11 +16,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    height: 700vh;
-    background-color: #E0E0E0;
-}
-
 .hero {
     height: 115vh;
     background-image: url(./img/hero-cover3.png);
@@ -504,6 +499,7 @@ nav ul a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .location-intro {
@@ -570,3 +566,97 @@ nav ul a{
     width: 22vw;
     margin-top: 2vh;
 }
+
+.contact-us {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
+
+.contact-us h2 {
+    color: var(--bs-title);
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.contact-us p {
+    font-size: .8em;
+    font-weight: 500;
+    padding-right: 20vw;
+    padding-top: 2vh;
+    color: var(--bs-paragraph);
+}
+
+.contact-us button{
+    padding: .9em 1.2em;
+    font-size: .8em;
+    font-weight: 600;
+    color: var(--bs-white);
+    background-color: var(--bs-light-blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.footer-links {
+    margin-top: 10vh;
+    background-color: var(--bs-white);
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding-left: 10vw;
+}
+
+.footer-links ul:first-of-type {
+    padding-left: 0;
+}
+
+.footer-links li {
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--bs-paragraph);
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+.footer-links li:first-of-type {
+    font-weight: 700;
+    font-size: .9em;
+    color: var(--bs-title);
+}
+
+footer {
+    display: flex;
+    width: 70vw;
+    height: 4vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15vw;
+}
+
+footer span i:last-child {
+    padding-left: 1em;
+}
+
+footer span i {
+    color: var(--bs-light-blue);
+}
+
+footer p {
+    color: var(--bs-paragraph);
+    font-weight: 600;
+    font-size: .8em;
+}
+
+
+
+
+
