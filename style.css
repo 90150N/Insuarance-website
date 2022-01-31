@@ -658,6 +658,17 @@ footer p {
     font-size: .8em;
 }
 
+.header-loginbtn a:hover,
+nav ul a:hover {
+    color: #23A6F0;
+}
+
+.newsletter form button:hover,
+.hero-text-btns .blue-btn:hover, 
+button:hover {
+    background-color: #55c1ff;
+}
+
 @media screen and (max-width: 768px) {
 
     .hero {
