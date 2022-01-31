@@ -13,7 +13,7 @@ This is a sample insurance website for showcasing HTML CSS and responsive Design
 
 ### Screenshot
 
-![Website screenshot](./img/BrandNameScrot.png)
+![Website screenshot](./img/BrandNameScreen.png)
 
 ### Requirements
 
