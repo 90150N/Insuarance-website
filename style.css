@@ -659,13 +659,21 @@ footer p {
 @media screen and (max-width: 768px) {
 
     .hero {
-        height: 140vh;
+        height: 188vh;
     }
 
     .hero-text {
         margin-top: 15vh;
         height: 35vh;
         padding: 0 10vw;
+    }
+
+    .hero-text p {
+        margin-top: 4vh;
+    }
+
+    .hero-text-btns {
+        margin-top: 4vh;
     }
 
     .hero-card-sect {
@@ -708,7 +716,7 @@ footer p {
 
     .review-card {
         width: 60vw;
-        height: 40vh;
+        height: 60vh;
         margin-bottom: 5vh;
         text-align: center;
     }
@@ -767,7 +775,7 @@ footer p {
     .pricing-card-blue, 
     .pricing-card {
       width: 70vw;
-      height: 70vh;
+      height: 90vh;
       padding-left: 10vw;
       margin-top: 9vh;
     }
