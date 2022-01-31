@@ -656,7 +656,156 @@ footer p {
     font-size: .8em;
 }
 
+@media screen and (max-width: 768px) {
+
+    .hero {
+        height: 140vh;
+    }
+
+    .hero-text {
+        margin-top: 15vh;
+        height: 35vh;
+        padding: 0 10vw;
+    }
+
+    .hero-card-sect {
+        margin-top: 10vh;
+        padding-bottom: 15vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-card {
+        margin-left: 3vw;
+        width: 50vw;
+        box-shadow: 10px 10px 30px 3px #46464667;
+        padding: .8em 2em;
+        margin-bottom: 3vh;
+    }
+
+    .serve-sect {
+        margin-top: 0;
+        flex-direction: column;
+        text-align: center;
+        padding: 10vh 20vw;
+    }
+
+    .services {
+        padding: 4em;
+    }
+
+    .industry {
+        padding-top: 10vh;
+    }
+
+    .industry-reviews {
+        display: flex;
+        padding-top: 7vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-card {
+        width: 60vw;
+        height: 40vh;
+        margin-bottom: 5vh;
+        text-align: center;
+    }
+
+    
+    .review-card img {
+        max-width: 25vw;
+        padding-top: 2vh;
+    }
+
+    .partners {
+        margin-top: 10vh;
+    }
 
 
+    .partners-logos img {
+        width: 30vw;
+        display:block;
+        margin-bottom: 10vh;
+    }
+    
+    .partners-logos .hooli {
+        width: 30vw;
+    }
+
+    .newsletter {
+        margin-top: 8vh;
+        padding: 4vh 5vw;
+        width: 80vw;
+        margin-left: 10vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .newsletter h2 {
+      width: 50vw;
+      font-weight: 700;
+      font-size: 1.3em;
+      padding-bottom: 1em;
+    }
+
+    .pricing {
+      padding-top: 10vh;
+    }
+
+    .pricing-cards {
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .pricing-card-blue, 
+    .pricing-card {
+      width: 70vw;
+      height: 70vh;
+      padding-left: 10vw;
+      margin-top: 9vh;
+    }
+
+    .pricing-card-blue ul, 
+    .pricing-card ul {
+      padding-top: 2vh;
+    }
+
+    .pricing-card-blue .price,
+    .pricing-card .price {
+      display: flex;
+      color: var(--bs-light-blue);
+      font-weight: 700;
+      font-size: 2em;
+      padding-top: 4vh;
+      padding-left: 5vw;
+    }
+
+    .pricing-card-blue button,
+    .pricing-card button {
+      width: 50vw;
+      margin-top: 5em;
+      margin-bottom: 0;
+    }
+
+    .pricing-card-blue h2,
+    .pricing-card h2 {
+      font-size: 2em;
+      padding-top: 2vh;
+    }
+
+    location-intro {
+      display: flex;
+      padding: 10%;
+      flex-direction: column-reverse;
+    }
+
+}
 
 
