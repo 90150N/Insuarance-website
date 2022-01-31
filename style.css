@@ -584,7 +584,7 @@ nav ul a{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 5vh;
-    margin-left: 6vh;
+    margin-left: 2vw;
     width: 20vw;
 }
 
@@ -750,7 +750,7 @@ button:hover {
 
     .review-card {
         width: 60vw;
-        height: 60vh;
+        height: fit-content;
         margin-bottom: 5vh;
         text-align: center;
     }
@@ -881,12 +881,12 @@ button:hover {
         width: 60vw;
     }
     .form button {
-        width:55vw
+        width:60vw
     }
     .contact-us {
       width: 80vw;
       margin-left: 10vw;
-      margin-top: 80vh;
+      margin-top: 90vh;
     }
 
     .contact-us p {
