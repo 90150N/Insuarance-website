@@ -574,6 +574,20 @@ nav ul a{
     margin-top: 2vh;
 }
 
+.form button{
+    padding: .9em 1.2em;
+    font-size: .8em;
+    font-weight: 600;
+    color: var(--bs-white);
+    background-color: var(--bs-light-blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-left: 6vh;
+    width: 20vw;
+}
+
 .contact-us {
     width: 60vw;
     display: flex;
@@ -653,8 +667,10 @@ footer span i:last-child {
     padding-left: 1em;
 }
 
+.footer-links i,
 footer span i {
     color: var(--bs-light-blue);
+    cursor: pointer;
 }
 
 footer p {
@@ -826,12 +842,56 @@ button:hover {
       padding-top: 2vh;
     }
 
-    location-intro {
-      display: flex;
-      padding: 10%;
-      flex-direction: column-reverse;
+    .location {
+        position: static;
     }
 
+    .location-intro {
+        display: flex;
+        padding: 10vh 5vw;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .location-intro img {
+        padding-top: 5vh;
+        width: 80vw;
+    }
+
+    .location-text {
+        padding-left: 10vw;
+    }
+
+    .appointment-form {
+        display: flex;
+        width: 98vw;
+        background-color: var(--bs-white);
+        position: static;
+    }
+
+    .form {
+        width: 70vw;
+    }
+
+    .form form {
+      width: 65vw;
+    }
+
+    .form form input {
+        width: 60vw;
+    }
+    .form button {
+        width:55vw
+    }
+    .contact-us {
+      width: 80vw;
+      margin-left: 10vw;
+      margin-top: 80vh;
+    }
+
+    .contact-us p {
+        padding-right: 0;
+    }
 }
 
 
