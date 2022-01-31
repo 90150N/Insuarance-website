@@ -497,8 +497,9 @@ nav ul a{
     color: var(--bs-white);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    position:relative;
+    height: 100vh;
     
 }
 
@@ -539,6 +540,7 @@ nav ul a{
 
 .appointment-form img {
     height: 80vh;
+    width: 30vw;
 }
 
 .form form input,
@@ -572,7 +574,7 @@ nav ul a{
     display: flex;
     justify-content: space-between;
     margin-left: 20vw;
-    margin-top: 10vh;
+    margin-top: 60vh;
 }
 
 .contact-us h2 {
