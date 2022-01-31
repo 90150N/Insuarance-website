@@ -1,4 +1,4 @@
-# Insurance Website
+# Insurance_Website
 
 ## Table of Content
 
@@ -21,7 +21,7 @@ This is a sample insurance website for showcasing HTML CSS and responsive Design
 
 * Internet Access
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#Insurance_Website)
 ## Technology Used
 * Semantic HTML5 Markup - Has been used to build the structure of the page.
 
@@ -32,12 +32,12 @@ This is a sample insurance website for showcasing HTML CSS and responsive Design
 
 ### Links
 
-- Live Site URL: [Insurance Landing Page]()
+- Live Site URL: [Insurance Landing Page](https://90150n.github.io/insuarance-website/)
 
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#Insurance_Website)
 
-## Licence
+## License
 
 MIT License
 
@@ -61,10 +61,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#Insurance_Website)
 
 ## Authors Info
 
 Linked - [Sam Kuria](https://www.linkedin.com/in/sam-kuria-0904b01a1)
 
-[Go Back to the top](#portfolio)
+[Go Back to the top](#Insurance_Website)
