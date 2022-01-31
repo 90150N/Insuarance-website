@@ -627,8 +627,13 @@ nav ul a{
     background-color: var(--bs-white);
     padding-top: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 10vh;
+}
+
+.links-divider {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-links ul {
@@ -636,9 +641,9 @@ nav ul a{
     padding-left: 10vw;
 }
 
-.footer-links ul:first-of-type {
+/* .footer-links ul:first-of-type {
     padding-left: 0;
-}
+} */
 
 .footer-links li {
     font-size: .8em;
@@ -891,6 +896,10 @@ button:hover {
 
     .contact-us p {
         padding-right: 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
     }
 }
 
