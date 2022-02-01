@@ -344,7 +344,7 @@ nav ul a{
 
 .pricing-card {
     width: 25vw;
-    height: 80vh;
+    height: fit-content;
     background-color: var(--bs-white);
     border: 2px solid var(--bs-light-blue);
     margin-left: 4px;
@@ -356,13 +356,14 @@ nav ul a{
 
 .pricing-card-blue {
     width: 25vw;
-    height: 90vh;
+    height: fit-content;
     background-color: var(--bs-dark-blue);
     border: 2px solid var(--bs-light-blue);
     border-radius: 10px;
     padding: 3vw;
     margin-left: 4px;
     color: var(--bs-white);
+    padding-bottom: 7vh;
 }
 
 .pricing-card-blue h2 {
@@ -493,7 +494,7 @@ nav ul a{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 3em;
+    margin-top: 5em;
     margin-bottom: 6vh;
 }
 
@@ -548,6 +549,10 @@ nav ul a{
     width: 30vw;
 }
 
+.form {
+    background-color: var(--bs-white);
+}
+
 .form form input,
 .form form label {
     display: block;
@@ -567,7 +572,7 @@ nav ul a{
 
 .form form input {
     border: 1px solid #C6C6C6;
-    padding: 1em;
+    padding: .7em;
     border-radius: 5px;
     background-color: #c4c1c1;
     width: 22vw;
@@ -585,7 +590,8 @@ nav ul a{
     cursor: pointer;
     margin-top: 5vh;
     margin-left: 2vw;
-    width: 20vw;
+    margin-bottom: 3vh;
+    width: 22vw;
 }
 
 .contact-us {
@@ -644,6 +650,14 @@ nav ul a{
 /* .footer-links ul:first-of-type {
     padding-left: 0;
 } */
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+.footer-links li:hover:first-of-type {
+    text-decoration: none;
+}
 
 .footer-links li {
     font-size: .8em;
@@ -901,6 +915,20 @@ button:hover {
     .footer-links {
         flex-direction: column;
     }
+
+    .links-divider {
+        justify-content: space-around;
+    }
+
+    .links-divider .addpad {
+        padding-left: 0vw;
+        padding-right: 4vw;
+    }
+
+    .divider2 {
+        margin-top: 3vh;
+    }
+
 }
 
 
