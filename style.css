@@ -709,7 +709,47 @@ button:hover {
     background-color: #55c1ff;
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media  screen and (max-width: 1240px) {
+    .header-loginbtn button {
+        padding: .9em .4em;
+    }
+    
+}
+
+
+@media  screen and (max-width: 1130px) {
+    .header-loginbtn {
+        width: 20vw;
+    }
+    
+    .contact-us button {
+        width: 12vw;
+        padding: .9em .1em;
+    }
+}
+
+@media  screen and (max-width: 1126px) {
+    .header-loginbtn button {
+        padding: .9em .4em;
+    }
+    
+}
+
+@media  screen and (max-width: 1024px) {
+    .header-loginbtn {
+        width: 23vw;
+    }
+}
+
+@media  screen and (max-width: 888px) {
+    .header-loginbtn {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 824px) {
 
     .hero {
         height: 188vh;
@@ -906,6 +946,13 @@ button:hover {
       width: 80vw;
       margin-left: 10vw;
       margin-top: 90vh;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact-us button {
+        margin-top: 4vh;
+        width: 20vw;
     }
 
     .contact-us p {
@@ -931,4 +978,39 @@ button:hover {
 
 }
 
+@media screen and (max-width: 358px) {
+    .contact-us {
+        margin-top: 55vh;
+    }
 
+    .contact-us no-button {
+        width: 30vw;
+    }
+
+    .newsletter form button {
+        margin-top: 3vh;
+        border-radius: 5px;
+    }
+
+    .hero-text-btns .trans-btn {
+        margin-top: 1.3vh;
+    }
+
+    .services {
+        padding: 2em;
+    }
+
+    .pricing-cards {
+         padding-top: 2vh;
+    }
+
+    .pricing-card-blue, .pricing-card {
+        height: fit-content;
+    }
+
+    .pricing-card-blue h2, 
+    .pricing-card h2 {
+        font-size: 1.5em;
+    }
+
+}
