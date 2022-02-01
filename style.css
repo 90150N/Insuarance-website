@@ -752,7 +752,7 @@ button:hover {
 @media screen and (max-width: 824px) {
 
     .hero {
-        height: 188vh;
+        height: auto;
     }
 
     .hero-text {
