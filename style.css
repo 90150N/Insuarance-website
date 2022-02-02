@@ -20,6 +20,7 @@
     height: 115vh;
     background-image: url(./img/hero-cover3.png);
     background-size: cover;
+    background-position: center;
 }
 
 header {
