@@ -9,7 +9,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-This is a sample insurance website for showcasing HTML CSS and responsive Design
+This landing page serves as a prime example of an insurance website designed using HTML, CSS, and responsive design techniques. The page has been meticulously crafted to provide a visually appealing and intuitive user experience, while also communicating key information about the insurance services offered by the website. The responsive design ensures that the website can be accessed seamlessly across various devices, providing users with a consistent and optimized experience. With its sleek and modern design, coupled with its user-centric approach, this landing page exemplifies the best practices of web design and is sure to leave a lasting impression on visitors.
 
 ### Screenshot
 
