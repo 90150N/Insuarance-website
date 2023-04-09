@@ -32,7 +32,7 @@ This landing page serves as a prime example of an insurance website designed usi
 
 ### Links
 
-- Live Site URL: [Insurance Landing Page](https://90150n.github.io/insuarance-website/)
+- Live Site URL: [Insurance Landing Page](https://qurriahsam.github.io/insuarance-website/)
 
 
 [Go Back to the top](#Insurance_Website)
